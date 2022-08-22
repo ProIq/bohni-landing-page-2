@@ -1,38 +1,275 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  overflow-x: hidden;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header {
+  width: 100vw;
+  height: 61px;
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background: #390099;
+}
+
+.header-container-1 {
+  width: 30%;
+  height: 100%;
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.text-header {
+  font-family: 'Stolzl';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  letter-spacing: 0.001em;
+  color: #FFFFFF;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.header-container-2 {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.english-head {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.globe-header-icon {
+  margin-right: 10px;
+}
+
+.arrowdown-header {
+  margin-left: 10px;
+}
+
+.email-icon-header {
+  margin-right: 10px;
+}
+
+.whatsapp-icon-header {
+  margin-right: 10px;
+}
+
+.whatsapp-head {
+  display: flex;
+  align-items: center;
+}
+
+.nav-bar-container {
+  width: 100vw;
+  height: 98px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-bar-icon-about-contact {
+  width: 45%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.boni-nav-img {
+  width: 124px;
+  height: 54px;
+}
+
+.nav-boni-icon {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 100%;
+}
+
+.about-nav {
+  display: flex;
+  align-items: center;
+  height: 90%;
+  font-family: 'Stolzl';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 26px;
+  letter-spacing: 0.001em;
+  color: #BABABA;
+}
+
+.about-nav:hover {
+  color: #390099;
+  border-bottom: 4px solid #390099;
+  cursor: pointer;
+  transition: 800ms;
+}
+
+.nav-bar-button {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.download-nav {
+  font-family: 'Stolzl';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 26px;
+  letter-spacing: 0.001em;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 17px 27px;
+  gap: 13px;
+  width: 254px;
+  height: 60px;
+  color: #FFFFFF;
+  background: #FF0054;
+  border-radius: 55px;
+  outline: none;
+  border: 2px solid #FF0054;
+}
+
+.body-container {
+  position: relative;
+  height: 100vh;
+  width: 95vw;
+  padding: 0%;
+  margin: 0%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-body-div {
+  position: relative;
+  height: 95%;
+  width: 95%;
+  margin: 0%;
+  padding: 0%;
+}
+
+.image-of-body {
+  margin: 0%;
+  padding: 0%;
+  position: relative;
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+}
+
+.body-text {
+  position: absolute;
+  top: 100px;
+  left: 80px;
+  z-index: 2;
+  font-family: 'Stolzl';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 96px;
+  letter-spacing: 0.001em;
+  color: rgb(248, 245, 245);
+  width: 604px;
+}
+
+.Whatboni-container {
+  height: 150vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  background: #E8DAFF;
+}
+
+.round-what-container {
+  height: 337px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FFFFFF;
+  border-radius: 100%;
+  border-top-left-radius: 0%;
+  border-top-right-radius: 0%;
+  width: 100%;
+}
+
+.what-round {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  align-items: center;
+  width: 250px;
+  height: 250px;
+  border-radius: 100%;
+  background: #FF73A1;
+  border: 2px dashed #FF0054;
+}
+
+.heading-of-circle {
+  position: absolute;
+  top: 39px;
+  font-family: 'Stolzl';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36px;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 0.001em;
+
+  color: #FFFFFF;
+}
+.body-of-circle{
+  font-family: 'Stolzl';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 131.5%;
+  /* or 21px */
+  width: 145px;
+  text-align: center;
+  letter-spacing: 0.001em;
+  
+  color: #FFFFFF;
+}
+.speaker-of-circle{
+  position: absolute;
+  top: 180px;
+}
+.boni-of-circle{
+  position: absolute;
+  top:149px;
+  color: #FFFFFF;
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+  /* identical to box height */
+  
+  text-align: center;
+  letter-spacing: 0.001em;
 }
