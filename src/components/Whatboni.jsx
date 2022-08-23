@@ -1,6 +1,8 @@
 import React from 'react';
 import speaker from "./images/speaker.svg";
 import shop from "./images/shop.png";
+import boni2 from "./images/boni2.png";
+import bino from "./images/Bino.svg";
 const bon = "‘BONI’";
 const Whatboni = () => {
   return (
@@ -32,13 +34,33 @@ const Whatboni = () => {
       <div className="picture-in-what">
         <div className="picture-container">
           <div className="peer-containers">
-          <img src={shop} alt="" className="picture-real-in-what" />
+            <img src={shop} alt="" className="picture-real-in-what" />
             <div className="peer1">
-
+              <div className="boni-in-peer">
+                List your Business on Boni
+              </div>
+              <div className="div-in-boni-peer">
+                <img src={boni2} alt="" className="boni-in-peer-image" />
+              </div>
             </div>
             <div className="empty-div"></div>
             <div className="peer2">
-
+              <div className="bino-in-peer">
+                Get found by customers on Bino
+              </div>
+              <div className="div-in-bino-peer">
+                <img src={bino} alt="" className="bino-real-what" />
+              </div>
+            </div>
+          </div>
+          <div className="button-container">
+            <div className="button-1">
+              <button className='get-app-button'>Get app</button>
+            </div>
+            <div className="button-2">
+              <button className="get-app-button">
+                Get app
+              </button>
             </div>
           </div>
         </div>
