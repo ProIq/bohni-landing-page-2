@@ -53,16 +53,16 @@ const Whatboni = () => {
               </div>
             </div>
           </div>
-          <div className="button-container">
-            <div className="button-1">
-              <button className='get-app-button'>Get app</button>
-            </div>
-            <div className="button-2">
-              <button className="get-app-button">
-                Get app
-              </button>
-            </div>
-          </div>
+        </div>
+      </div>
+      <div className="button-container">
+        <div className="button-1">
+          <button className='get-app-button'>Get app</button>
+        </div>
+        <div className="button-2">
+          <button className="get-app-button">
+            Get app
+          </button>
         </div>
       </div>
     </div>

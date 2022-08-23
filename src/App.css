@@ -152,18 +152,20 @@ body {
 }
 
 .body-container {
-  position: relative;
   height: 100vh;
-  width: 95vw;
+  width: 100vw;
   padding: 0%;
   margin: 0%;
   display: flex;
-  justify-content: center;
+  justify-content: second;
   align-items: center;
 }
-
-.image-body-div {
+.second{
   position: relative;
+  height: 100%;
+  width: 100%;
+}
+.image-body-div {
   height: 95%;
   width: 95%;
   margin: 0%;
@@ -173,16 +175,15 @@ body {
 .image-of-body {
   margin: 0%;
   padding: 0%;
-  position: relative;
+  position:absolute;
   z-index: 1;
   height: 100%;
   width: 100%;
 }
-
 .body-text {
   position: absolute;
   top: 100px;
-  left: 80px;
+  left: 100px;
   z-index: 2;
   font-family: 'Stolzl';
   font-style: normal;
@@ -195,10 +196,9 @@ body {
 }
 
 .Whatboni-container {
-  height: 200vh;
+  height: 250vh;
   width: 100vw;
-  display: flex;
-  flex-direction: column;
+  display:block;
   background: #E8DAFF;
 }
 
@@ -327,7 +327,7 @@ body {
 }
 
 .picture-in-what {
-  height: 680px;
+  height: 469px;
   width: 100vw;
   display: flex;
   align-items: center;
@@ -343,12 +343,12 @@ body {
 }
 
 .picture-container {
-  width: 80%;
-  height: 100vw;
+  width:100vw;
+  height: 60%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content:flex-start;
 }
 
 .peer-containers {
@@ -364,7 +364,6 @@ body {
 }
 
 .peer1 {
-  z-index: 1;
   display: flex;
   justify-content: center;
   align-items:center;
@@ -384,7 +383,6 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  z-index: 1;
   background: #FFFFFF;
   border: 2px dashed #C4C4C4;
   border-radius: 20px;
@@ -438,26 +436,24 @@ body {
   margin-bottom: 10px;
 }
 .button-container{
-  margin-top: 100px;
   width:100%;
-  height: 80px;
+  height: 600px;
   display: flex;
+  justify-content:space-evenly;
 }
 .button-1{
   display: flex;
   align-items: center;
-  justify-content: center;
-  width: 50%;
+  justify-content:center;
+  width: 35%;
   height: 100%;
-  margin-left: 90px;
 }
 .button-2{
   display: flex;
   align-items: center;
-  justify-content: center;
-  width: 50%;
+  justify-content:center;
+  width: 35%;
   height: 100%;
-  margin-right: 90px;
 }
 .get-app-button{
   font-family: 'Stolzl';
