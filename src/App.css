@@ -752,3 +752,46 @@ body {
   
   color: #818181
 }
+.phone-container-whole{
+  width: 100vw;
+  height: 130vh;
+  display: flex;
+  align-items: center;
+  background-color: #390099;
+}
+.phones-container{
+  width: 55%;
+  height: 55%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.ad-play-store{
+  width: 45%;
+  height: 65%;
+}
+.phone-left{
+  position:absolute;
+  z-index: 2;
+  width:342px;
+}
+.phone-right{
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.right{
+  position: absolute;
+  z-index: 2;
+}
+.right-back{
+  position: absolute;
+  z-index: 1;
+}
+.low{
+  width:70%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
